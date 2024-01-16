@@ -63,7 +63,7 @@ def main():
     with st.expander("보이스봇(voicebot) 프로그램에 관하여", expanded=True):
         st.write(
             """
-            - 이해린이 만든 보이스봇 프로그램입니다. 
+            - 이해린이 만든 보이스봇 프로그램입니다. OpenAI API Key를 발급받아 입력해야 작동합니다.
             - UI는 Streamlit을 활용했습니다.
             - STT(Speach-To-Text)는 OpenAI의 Whisper AI를 활용했습니다.
             - 답변은 OpenAI의 GPT 모델을 활용했습니다.
